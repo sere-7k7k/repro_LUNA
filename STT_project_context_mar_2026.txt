@@ -1,0 +1,14 @@
+## **A. Spatiotemporal Transcriptome (STT)**
+
+The goal is to address the scarcity of joint single-cell + spatial + temporal data by combining existing data abundance with generative conversion.
+
+* **Logic 1:** Single-cell + time data (e.g., developmental stages, disease stages) is abundant.  
+* **Logic 2:** Single-cell-level spatial data is abundant.  
+* **Logic 3:** Joint single-cell + spatial + time data is scarce.  
+* **Logic 4:** The existing **LUNA** model can convert single-cell data into single-cell + spatial data.  
+* **Added-up Logic:** Use **Logic 1 + Logic 4** to address **Logic 3**, then train a **foundation model (FM)** to solve this issue more generally.  
+* **Methodology:** Use **LUNA** (tissue reassembly with generative AI) to generate pseudo spatial context from single-cell data and pair it with time-annotated single-cell datasets for STT model training.  
+* **Tasks:**  
+  * Survey existing spatiotemporal data across species and tissues (e.g., mouse development/MERFISH).  
+  * Replicate the **LUNA** model using open-source repositories.  
+  * Reference the **stVCR** paper (published in *Nature Methods*), which utilizes a **Neural ODE** approach for spatiotemporal dynamics.
