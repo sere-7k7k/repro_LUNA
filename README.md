@@ -76,10 +76,9 @@ repro_LUNA/
 │   ├── smoke_test.py          #   CPU smoke test (no GPU needed)
 │   └── data/                  #   Dataset directory (not tracked, download separately)
 │
-└── notes/                     # Reproduction analysis and STT project docs
+└── notes/                     # Reproduction analysis
     ├── repro_results.md       #   Full reproduction report (metrics, visual assessment, compute cost)
     ├── reproduction_comparison.md  #   Paper vs ours vs next steps comparison table
-    ├── STT_project_context.md #   STT project motivation + open research questions
     └── analyze_results.py     #   Script to compute per-checkpoint metrics from result CSVs
 ```
 
@@ -112,7 +111,7 @@ The original repo doesn't pin all dependencies. These pins are critical:
 
 ## Context
 
-This reproduction is part of the **Spatiotemporal Transcriptome (STT)** project, which aims to combine single-cell temporal data with LUNA-generated pseudo-spatial context to build a spatiotemporal foundation model. See `notes/STT_project_context.md` for details.
+This reproduction is part of the **Spatiotemporal Transcriptome (STT)** project, which aims to combine single-cell temporal data with LUNA-generated pseudo-spatial context to build a spatiotemporal foundation model.
 
 ## Credits
 

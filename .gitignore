@@ -13,6 +13,9 @@ shh_info.txt
 /STT_project_context_mar_2026.txt
 /repo_push_context.md
 
+# Private notes (share with collaborators directly, not via public repo)
+notes/STT_project_context.md
+
 # Data (too large for git — download link in LUNA_core/README.md)
 LUNA_core/data/
 LUNA_core/outputs_remote/
