@@ -1,25 +1,29 @@
-__pycache__
-__pycache__/*
-*/__pycache__
-*/__pycache__/
-*/__pycache__/*
-./utils/data/__pycache__
-./utils/data/__pycache__/*
-./utils/diffusion_model/diffusion/__pycache__
-./utils/diffusion_model/sample/__pycache__
-./utils/diffusion_model/setup/__pycache__
-./utils/diffusion_model/test/__pycache__
-./utils/diffusion_model/train/__pycache__
-./utils/diffusion_model/validation/__pycache__/*
-./utils/diffusion_model/diffusion/__pycache__/*
-./utils/diffusion_model/sample/__pycache__/*
-./utils/diffusion_model/setup/__pycache__/*
-./utils/diffusion_model/test/__pycache__/*
-./utils/diffusion_model/train/__pycache__/*
-./utils/diffusion_model/validation/__pycache__/*
+# Local / personal
+.claude/
+logs/
+outputs/
+notes/notes_personal/
+ssh_info.txt
+pc_info.md
+shh_info.txt
 
-data
-data/*
-data/*/*
-./data
-./data/*
+# Root-level local files (not for collaborators)
+/LUNA_2day_repro_plan.md
+/LUNA_V2_Oct.pdf
+/STT_project_context_mar_2026.txt
+/repo_push_context.md
+
+# Data (too large for git — download link in LUNA_core/README.md)
+LUNA_core/data/
+LUNA_core/outputs_remote/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.eggs/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
